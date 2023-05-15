@@ -1,5 +1,5 @@
-#1-icons
-#2-Svg
-#3-app extra exported files 
-#4-resp on some pages
-#5-create.js
+#1-icons Sloved!
+#2-Svg Sloved!
+#3-app extra exported files  Sloved!
+#4-resp on some pages Sloved!
+#5-create.js  Sloved!

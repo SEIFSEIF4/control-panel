@@ -7,12 +7,12 @@
 
 @font-face {
   font-family: "Janna LT";
-  src: local("Janna LT"), url(/bcbd13437e3cee26fa1f.woff) format("woff");
+  src: local("Janna LT"), url(/assets/fonts/janna.woff) format("woff");
   font-weight: normal;
 }
 @font-face {
   font-family: "Janna LT";
-  src: local("Janna LT"), url(/b181cb0f9fd3a0748113.woff) format("woff");
+  src: local("Janna LT"), url(/assets/fonts/janna-bold.woff) format("woff");
   font-weight: bold;
 }
 html {
@@ -453,7 +453,7 @@ a, a:active, a:hover, a:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(/c61029928ca2852979de.svg) no-repeat center;
+  background: url(/assets/images/upload.svg) no-repeat center;
   background-size: 150px;
   margin-bottom: 20px;
 }
@@ -979,8 +979,8 @@ a, a:active, a:hover, a:focus {
 
 @font-face {
   font-family: "icon";
-  src: url(/e47bf739f5c9ab78c829.eot?c8hw0a);
-  src: url(/e47bf739f5c9ab78c829.eot?c8hw0a#iefix) format("embedded-opentype"), url(/77f7c45ddda4e930bd9e.ttf?c8hw0a) format("truetype"), url(/7b5fd872bcdb1d837ec0.woff?c8hw0a) format("woff"), url(/469e8d5486143d906530.svg?c8hw0a#icon) format("svg");
+  src: url(/assets/fonts/icon.eot);
+  src: url(/assets/fonts/icon.eot#iefix) format("embedded-opentype"), url(/assets/fonts/icon.ttf) format("truetype"), url(/assets/fonts/icon.woff) format("woff"), url(/assets/fonts/icon.svg#icon) format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -1056,7 +1056,7 @@ a, a:active, a:hover, a:focus {
 }
 
 .main-page {
-  background-image: url(/3ad3ebf707a6df16292d.svg);
+  background: url(/assets/images/confitti.svg) no-repeat top left;
 }
 
 .home-intro {

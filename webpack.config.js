@@ -40,16 +40,6 @@ module.exports = {
         ],
       },
 
-      // {
-      //   test: /\.svg/,
-      //   use: {
-      //     loader: "url-loader",
-      //     loader: "svg-url-loader",
-      //     loader: "file-loader",
-      //     options: {},
-      //   },
-      // },
-
       {
         test: /.s?css$/,
         use: [
@@ -61,31 +51,21 @@ module.exports = {
       },
 
       {
-        test: /\.(svg|eot|woff|woff2|ttf)$/,
-        exclude: /images/,
-        use: [
-          {
-            loader: "file-loader",
-            options: {
-              name: "[name].[ext]",
-              outputPath: "assets/fonts",
-            },
-          },
-        ],
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        exclude: /fonts/,
+        type: 'asset/resource',
+        generator: {
+          filename: "./assets/images/[name][ext]"
+        }
       },
 
       {
-        test: /\.(png|svg|jpe?g|gif)$/,
-        exclude: /fonts/,
-        use: [
-          {
-            loader: "file-loader",
-            options: {
-              name: "[name].[ext]",
-              outputPath: "assets/images",
-            },
-          },
-        ],
+        test: /\.(svg|eot|woff|woff2|ttf)$/i,
+        exclude: /images/,
+        type: 'asset/resource',
+        generator: {
+          filename: "./assets/fonts/[name][ext]"
+        }
       },
 
       {
